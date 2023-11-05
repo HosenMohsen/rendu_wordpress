@@ -68,3 +68,15 @@ color: #ffff;
 .revetements-card-content a:visited{
 color: #ffff;
 }
+
+@media (max-width: 768px) {
+    .revetements-wrapper{
+		grid-template-columns: 1fr;
+		max-width: 400px;
+	}
+	
+
+	.post-type-archive-revetements .page-header h1{
+		font-size: 24px;
+	}
+}

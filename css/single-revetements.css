@@ -35,19 +35,9 @@
 }
 
 
-@media screen and (max-width: 800px) {
-    .single-revetements-card {
-        flex-direction: column;
-    }
-
-    .single-revetements-card img {
-        min-width: 150px;
-    }
-
-  }
 
   /* Style pour la section principale */
-section {
+  section {
     border: 1px solid #ccc;
     padding: 20px;
     margin: 20px;
@@ -89,3 +79,19 @@ section {
     margin-left: 30px;
   }
   
+
+@media screen and (max-width: 800px) {
+    .single-revetements-card {
+        flex-direction: column;
+    }
+
+    .single-revetements-card img {
+        min-width: 150px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+
+  }
+

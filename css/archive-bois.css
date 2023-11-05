@@ -72,3 +72,41 @@ padding: 11px 4px;
 .bois-card-link:hover{
     background-color: #446084;
 }
+
+@media (max-width: 1000px) {
+    .bois-wrapper{
+     margin-left: 15%;
+    }    
+ }
+
+@media (max-width: 768px) {
+
+    .post-type-archive-bois .page-header h1{
+        font-size: 31px;
+    }
+
+    .post-type-archive-bois .page-header p{
+        font-size: 18px;
+    }
+
+
+    .bois-card-content{
+        flex-direction: column;
+    }
+
+    .bois-card-content img{
+        width: 50%;
+    }
+
+    .bois-wrapper{
+        margin-left: 15%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .bois-card-link{
+        max-width: 300px;
+    }
+}
+
+

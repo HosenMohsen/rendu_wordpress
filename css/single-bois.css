@@ -14,6 +14,10 @@
   .single-bois-card-body {
     text-align: center;
   }
+
+  .single-bois-card-body p {
+    text-align: justify;
+  }
   
   .single-bois-card-title {
     font-size: 24px;
@@ -34,3 +38,18 @@
     object-fit: cover;
   }
   
+
+
+  @media screen and (max-width: 800px) {
+    .single-bois-card {
+        flex-direction: column;
+    }
+
+    .single-bois-card img {
+        min-width: 150px;
+        max-width: 300px;
+        height: 300px;
+    }
+    
+
+  }
