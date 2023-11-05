@@ -1,0 +1,91 @@
+.single-revetements-title{
+    min-height: 100px;
+    background-color: rgb(29, 87, 174);
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.single-revetements-card{
+    min-height: 300px;
+    display: flex;
+    background-color: #f9f9f9;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    text-align: justify;
+    border: 1px solid rgb(123, 123, 123)
+}
+
+
+.single-revetements-card p {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.single-revetements-card img {
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+    cursor:zoom-in;
+}
+
+
+@media screen and (max-width: 800px) {
+    .single-revetements-card {
+        flex-direction: column;
+    }
+
+    .single-revetements-card img {
+        min-width: 150px;
+    }
+
+  }
+
+  /* Style pour la section principale */
+section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Style pour le titre */
+  h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style pour les paragraphes */
+  p {
+    font-size: 1.1em;
+    margin: 0;
+  }
+  
+  /* Style pour la liste non ordonnée */
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  /* Style pour les éléments de liste */
+  li {
+    font-size: 1em;
+    margin: 5px 0;
+  }
+  
+  /* Style spécifique pour la liste d'épaisseurs */
+  ul ul {
+    list-style-type: circle;
+    margin-left: 30px;
+  }
+  

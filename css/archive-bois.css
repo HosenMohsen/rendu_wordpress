@@ -1,0 +1,74 @@
+.post-type-archive-bois .page-header{
+	min-height: 250px;
+	background-color: #446084;
+	color: #ffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    margin-bottom: 30px;
+}
+
+.post-type-archive-bois .page-header h1{
+font-size: 42px;
+line-height: 1;
+margin-bottom: 0.2em;
+}
+
+
+
+.post-type-archive-bois .page-header p {
+font-size: 18px;
+}
+
+.bois-wrapper {
+display: grid;
+grid-template-columns: 1fr;
+margin-left: 30%;
+height: 300px;
+max-width: 600px;
+
+}
+
+.bois-card {
+border: 1px solid rgb(123, 123, 123)
+}
+
+.bois-card h2 {
+    text-align: center;
+}
+
+
+.bois-card-content img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+.bois-card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    gap: 20px;
+}
+
+.bois-card-link {
+display: flex;
+width: 400px;
+background-color: #253448;
+justify-content: center;
+margin-left: 20%;
+padding: 11px 4px;
+}
+
+
+.bois-card-link a{
+    color: #ffff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.bois-card-link:hover{
+    background-color: #446084;
+}

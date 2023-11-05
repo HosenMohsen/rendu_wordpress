@@ -1,0 +1,36 @@
+
+.single-bois-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .single-bois-card-body {
+    text-align: center;
+  }
+  
+  .single-bois-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+
+  .single-bois-card-text {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .single-bois-card img {
+    max-width: 400px;
+    height: auto;
+    margin-top: 10px;
+    object-fit: cover;
+  }
+  
